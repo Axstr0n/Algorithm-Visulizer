@@ -29,7 +29,7 @@ const numberOfDataUI = document.getElementById('number-of-data')
 const numberOfDataSlider = document.getElementById('number-of-data-input')
 numberOfDataSlider.min = '5'
 numberOfDataSlider.max = '100'
-numberOfDataSlider.value = '10'
+numberOfDataSlider.value = '20'
 numberOfDataSlider.addEventListener('input', function(){
     UpdateSliderAndValue(numberOfDataSlider, 'number')
     Create()
